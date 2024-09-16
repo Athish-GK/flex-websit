@@ -98,11 +98,11 @@ ul>li a:hover{
 .last{
     display: flex;
     text-align: start;
-    height: 230px;
+    height: 300px;
 }
 .last>div{
-    width: 380px;
-    padding-left: 70px;
+    width: 650px;
+    padding-left: 140px;
 }
 .last>.last-first{
     background-color: rgba(253,210,73,255);
@@ -116,11 +116,16 @@ ul>li a:hover{
 .last>.m>h3{
     padding-top: 20px;
 }
+.last>.last-first>p{
+    margin-bottom: 30px;
+}
 .last>.last-middle>p{
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 .last>.last-last>p{
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 .last>.m>button{
     height: 50px;
