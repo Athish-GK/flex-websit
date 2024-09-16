@@ -1,0 +1,140 @@
+.whole-container{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.top-first{
+    display: flex;
+}
+.top>.top-first>img{
+    width: 80px;
+    height: 100px;
+}
+.top>.top-first>h1{
+    display: flex;
+    margin: 0;
+    height: 100px;
+    align-items: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+ul{
+    flex-basis: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+}
+ul>li a{
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+ul>li a:hover{
+    color: blue;
+}
+
+.top>.sign>button{
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    height: 30px;
+    color: rgb(37, 157, 231);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.top>.sign>button:hover{
+    background-color: rgb(37, 157, 231);
+    color: white;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(202,149,164,255);
+}
+.middle>.middle-first{
+    text-align:center;
+    padding-top: 150px;
+}
+.middle>.middle-first>h2{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+
+}
+.middle>.middle-first>h2 span{
+    color: white;
+}
+.middle>.middle-first>button{
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    border: 0;
+    font-weight:900;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+.middle>.middle-first>button:hover{
+    background-color: black;
+    color: white;
+}
+.last{
+    display: flex;
+    text-align: start;
+    height: 230px;
+}
+.last>div{
+    width: 380px;
+    padding-left: 70px;
+}
+.last>.last-first{
+    background-color: rgba(253,210,73,255);
+}
+.last>.last-middle{
+    background-color: rgba(80,193,158,255);
+}
+.last>.last-last{
+    background-color: rgba(61,169,245,255);
+}
+.last>.m>h3{
+    padding-top: 20px;
+}
+.last>.last-middle>p{
+    margin-top: 40px;
+}
+.last>.last-last>p{
+    margin-top: 40px;
+}
+.last>.m>button{
+    height: 50px;
+    width: 160px;
+    background-color: transparent;
+    color: black;
+    border: 1;
+    font-weight:900;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.last>.m>button:hover{
+    background-color: black;
+    color: white;
+
+}
